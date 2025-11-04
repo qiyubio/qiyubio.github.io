@@ -6,7 +6,7 @@ Claude will pull the repo to a **Anthropic-managed virtual machine**, and execut
 # The testing was done based on https://github.com/someonebio/deephyper, I asked Claude code to add an example, and it did:
 https://github.com/deephyper/deephyper/compare/master...someonebio:deephyper:claude/deephyper-benchmark-example-011CUoRaMUPsoW2QHcz2QpfF. It added the commit, and wrote all the code. Cost me $1.
 
-# Then I verified it on local machine use Claude to run based on TESTING_GUIDE.md, it solved the environment issue, and give some solution to install pymoo since python/13.4 is too new for pymoo/0.6.1.5. So it Downloaded the pre-compiled conda package for pymoo 0.6.1.5 and install it manually. The code is finally runnable, the quick test pass, but the full benchmark did not finish with segmentation error, which seems to be image gereration related. I post the error to Claude, and it fixed it by editing the code locally. 
+Then I verified it on local machine use Claude to run based on TESTING_GUIDE.md, it solved the environment issue, and give some solution to install pymoo since python/13.4 is too new for pymoo/0.6.1.5. So it Downloaded the pre-compiled conda package for pymoo 0.6.1.5 and install it manually. The code is finally runnable, the quick test pass, but the full benchmark did not finish with segmentation error, which seems to be image gereration related. I post the error to Claude, and it fixed it by editing the code locally. 
  
 ## Test Results Summary:
 
