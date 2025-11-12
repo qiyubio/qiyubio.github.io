@@ -3,9 +3,40 @@
 K-Dense is multi-agent AI research system which can coordinate specialized agents that plan experiments, review literature, design analyses, execute code in secure sandboxes, and generate publication-ready reports. 
 Achieved 29.2% accuracy on BixBench (the bioinformatics benchmark), outperforming GPT-5 (22.9%), GPT-4o (18%), and Claude 3.5 Sonnet (18%), there is no benchmark of 4.5 Sonnet I can find. 
 
+The use cases are:
+Drug Discovery Research
+
+Screen compound libraries from PubChem and ZINC
+Analyze bioactivity data from ChEMBL
+Predict molecular properties with RDKit and DeepChem
+Perform molecular docking with DiffDock
+Bioinformatics Analysis
+
+Process genomic sequences with BioPython
+Analyze single-cell RNA-seq data with Scanpy
+Query gene information from Ensembl and NCBI Gene
+Identify protein-protein interactions via STRING
+Materials Science
+
+Analyze crystal structures with Pymatgen
+Predict material properties
+Design novel compounds and materials
+Clinical Research
+
+Search clinical trials on ClinicalTrials.gov
+Analyze genetic variants in ClinVar
+Review pharmacogenomic data from ClinPGx
+Access cancer mutations from COSMIC
+Academic Research
+
+Literature searches via PubMed
+Patent landscape analysis using USPTO
+Data visualization for publications
+Statistical analysis and hypothesis testing
+
 ---
 
-## 📋 Executive Summary
+## 📋 Executive Summary on Analyze single-cell RNA-seq data with Scanpy
 
 I only need to press a tons of yes to create a whole single-cell RNA-seq analysis pipeline. Which includes 10 python scripts, one bash master script, one python dependency file and several documentation files.  
 
